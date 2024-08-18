@@ -1,0 +1,117 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --bgcolor:#b7b7b778;
+}
+.body{
+    background-color: #f5f5f5;;
+}
+.cpr{
+    cursor: pointer;
+}
+.mlt-auto{
+    margin:0 auto;
+}
+.todo-container{
+    padding: 50px;
+}
+.h1-heading{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 3px 3px;
+}
+.todo-section {
+    max-width: 500px;
+    width: 100%;
+    padding:2rem 0;
+}
+.inputgroup{
+    position: relative;
+    top: 7px;
+    right: 3px;
+    border-radius: 20px;
+    
+}
+.inputgroup input{
+   width: 100%;
+   font-size: 26px;
+   border-radius: 20px;
+   padding: 4px 57px 4px 17px;
+   background-color: var(--bgcolor)
+}
+.inputgroup input:hover,.inputgroup input:focus{
+    box-shadow: -1px -1px 11px -2px;
+ }
+ 
+
+.inputgroup button{
+    position: absolute;
+    top:0;
+    right: 0;
+    border-radius: 20px;
+    padding: 16px;
+}
+.inputgroup button:hover{
+    background-color: #aacfd0;
+    box-shadow: -1px -1px 11px -2px;
+}
+.span1{
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+}
+.span2{
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    rotate:90deg;
+    transform: translate(-2px, 0px);
+}
+.error{
+    margin: 12px 0px;
+    display: block;
+    text-shadow: 1px 1px 2px;
+    text-align: center;
+}
+.todo-taslist{
+    margin: 45px 0;
+}
+.task{
+    display: flex;
+    align-items: center;
+    background-color: var(--bgcolor);
+    padding: 20px;
+    margin-top:15px;
+}
+.mytasks{
+    transition: all 0.4 ease-in-out;
+}
+.task:hover{
+    box-shadow: -1px -1px 11px -2px;
+}
+.task-heading{
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+.edit{
+    color: green;
+    font-size: 20px;
+}
+.delete{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.edit:hover, .delete:hover{
+    box-shadow: -1px -1px 11px -2px;
+}
+.textstrike{
+    text-decoration: line-through;
+}
+
+@media (max-width:576px){
+    .task-heading{
+        font-size: 1.2rem;
+    }
+}

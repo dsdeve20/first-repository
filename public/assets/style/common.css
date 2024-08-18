@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(88, 88, 238);
+    color:#fff;
+    padding:20px;
+}
+
+.navbar a{
+    font-size: 34px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    padding:20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.textc{
+    text-align: center;
+}
